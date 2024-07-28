@@ -29,3 +29,19 @@
 .small {
   font-size: 0.75rem;
 }
+
+.board{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+}
+.game{
+  max-width: calc(3*100px);
+  padding: 20px;
+  text-align: center;
+  margin:  0 auto;
+}
+.cell{
+  height: 50px;
+  font-size: medium;
+}
